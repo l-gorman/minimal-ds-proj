@@ -17,7 +17,7 @@ the command:
 
 `cookiecutter https://github.com/l-gorman/minimal-ds-proj`
 
-You will
+You will be asked to fill in the following values
 
 ```
     directory_name [Name of the folder for the project]: 
@@ -25,6 +25,39 @@ You will
     authors [Name of the author(s) involved in the project]: 
     shared_library_code [Name of shared library (package) you will develop for this project]: 
 ```
+
+This will create a project with the following structure:
+
+```
+DIRECTORY_NAME/
+├── README.md
+├── .gitignore
+├── LICENSE.md
+│
+├── data
+|   ├── private_data 
+│   │   ├── external
+│   │   ├── interim
+│   │   ├── processed
+│   │   └── raw
+│   └── public_data
+│
+├── docs
+├── notebooks
+├── outputs
+├── tests
+└── utils 
+```
+
+## Our recommendations
+Feel free to use other frameworks. We recommend
+the following:
+
+- Documentation: https://www.mkdocs.org/
+- Virtual Environments (Python): Conda
+- R environments: Renv
+...
+
 
 ## Things to Note
 
