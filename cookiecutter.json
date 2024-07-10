@@ -1,0 +1,6 @@
+{
+    "directory_name": "Name of the folder for the project",
+    "year": "Year the project was created",
+    "authors": "Name of the author(s) involved in the project",
+    "shared_library_code": "Name of shared library (package) you will develop for this project"
+}

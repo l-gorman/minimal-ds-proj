@@ -1,0 +1,23 @@
+#Dot env config files
+.env 
+
+# Cs code files
+.vscode/
+
+
+# Virtual environment files
+env/
+venv/
+
+# Sphinx build files
+docs/_build/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+.DS_Store
+
+renv/
+
+.Rdata
+.Rproj.user

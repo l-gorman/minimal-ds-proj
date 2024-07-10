@@ -1,0 +1,7 @@
+*
+!.gitignore
+
+!raw/
+!external/
+!interim/
+!output/
